@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<!--
+   Template:Smart Ui
+   Version:1.0.0
+   Author:Webstrot
+   -->
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Header |smart Ui</title>
+    <!--custom css-->
+    <link rel="stylesheet" type="text/css" href="assests/css/style.css">
+    <link rel="stylesheet" type="text/css" href="assests/css/responsive.css">
+</head>
+
+<body>
+    <div class="wrapper">
+        <div class="mobile-menu">
+            <ul class="slde-bar d-block d-lg-none d-xl-none">
+                <div class="main-menu">
+                    <ul>
+                        <li><a href="#">home</a></li>
+                        <li><a href="#">listing</a></li>
+                        <li><a href="#">pages</a></li>
+                        <li>
+                            <a data-bs-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false"
+                                aria-controls="collapseExample">
+                                Tour&list</a>
+                            <div class="collapse" class="" id="collapseExample">
+                                <div class="card card-body">
+                                    <ul class="submenu-1">
+                                        <li><a href="#">Tour&list1</a></li>
+                                        <li><a href="#">Tour&list2</a></li>
+                                        <li>
+                                            <a data-bs-toggle="collapse" href="#collapseExample2" role="button"
+                                                aria-expanded="false" aria-controls="collapseExample2">Tour&list3</a>
+                                            <div class="collapse" id="collapseExample2">
+                                                <div class="card card-body">
+                                                    <ul class=" submenu-1 submenu-2">
+                                                        <li><a href="#">Tour$list3-1</a></li>
+                                                        <li><a href="#">Tour$list3-2</a></li>
+                                                        <li><a href="#">Tour$list3-3</a></li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                        </li>
+                                        <li><a href="#">Tour&list4</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+                    </li>
+                    <li><a href="#">Contact</a></li>
+            </ul>
+        </div>
+        </ul>
+    </div>
+    </div>
+    <header>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4 col-md-6 col-sm-6 col-6">
+                    <div class="logo">
+                        <img src="assests/images/mart-u-1.png" alt="can't loded">
+                    </div>
+                </div>
+                <div class="col-lg-5 col-md-6 col-sm-6 col-6 d-none d-lg-block d-xl-block">
+                    <div class="main-menu">
+                        <ul>
+                            <li><a href="#">home</a></li>
+                            <li><a href="#">listing</a></li>
+                            <li><a href="#">pages</a></li>
+                            <li>
+                                <a href="#">Tour&list</a>
+                                <ul class="submenu-1">
+                                    <li><a href="#">Tour&list1</a></li>
+                                    <li><a href="#">Tour&list2</a></li>
+                                    <li>
+                                        <a href="#">Tour&list3</a>
+                                        <ul class=" submenu-1 submenu-2">
+                                            <li><a href="#">Tour$list-1</a></li>
+                                            <li><a href="#">Tour$list-2</a></li>
+                                            <li><a href="#">Tour$list-3</a></li>
+                                        </ul>
+                                    </li>
+                                    <li><a href="#">Tour&list4</a></li>
+                                </ul>
+                            </li>
+                            <li><a href="#">Contact</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-6 col-6">
+                    <div class="social-icon">
+                        <ul>
+                            <li><a href="#">
+                                    <i class="fas fa-search"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <button type="button" class="btn btn-warning">Warning</button>
+                            </li>
+                            <li><a href="#" id="menu-toggle">
+                                    <span class="resp-bar"><i class="fas fa-bars"></i></span>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <script src="assests/js/jquery-3.5.1.js"></script>
+    <script src="assests/js/bootstrap.min.js"></script>
+    <script src="assests/js/custom.js"></script>
+    <script>
+        $("#menu-toggle").click(function (e) {
+            e.preventDefault();
+            $(".mobile-menu").toggleClass("toggled");
+        });
+    </script>
+</body>
+
+</html>

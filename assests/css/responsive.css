@@ -1,0 +1,457 @@
+/*----------resposive css of feature with icon ---------*/
+
+@media (max-width:1199px){
+    .left_shift{
+        padding-left: 20px;
+        font-size: 14px;
+        padding-right: 20px;
+        
+    }
+    .box h2,.right-2 h2,.box-3 h2{
+        font-size: 20px;
+    }
+    .box-4 p{
+        font-size: 14px;
+    }
+     /*-----------owl carousal responsive css--------------------*/
+     .slider-10 button.owl-prev::before{
+         width: 400px;
+     }
+     .slider-10 button.owl-next::after{
+        width: 410px;
+    }
+    .social-icon ul li{
+        margin-left: 10px;
+        padding: 10px;
+    }
+    header .main-menu ul li{
+        padding: 25px 15px;
+    }
+}
+
+@media (max-width:991px){
+    .left_shift{
+        padding-left: 20px;
+        padding-right: 20px;
+        font-size: 14px;
+    }
+    .box h2,.right-2 h2,.box-3 h2{
+        font-size: 20px;
+    }
+    .icon-12{
+        height: 300px;
+        line-height: 332px;
+    }
+    /*-----------header responsive css--------------------*/
+    
+    .nav-item{
+        text-align: center;
+    }
+    .list-item-1 .sub-menu {
+        visibility: hidden;
+        opacity: 0;
+        position: absolute;
+        top: 15%;
+        left: 0;
+        right: 0;
+        margin: 0 auto;
+        padding: 10px 30px;
+        background-color: #f9f9f9;
+        border-top: none;
+        transform: translateY(-2em);
+        z-index: 1;
+        transition: all 0.3s ease-in-out 0s, visibility 0s linear 0.3s, z-index 0s linear 0.01s;
+    }
+    .list-item-1:hover .sub-menu{
+        visibility: visible;
+        opacity: 1;
+        background-color: #e9e9e9;
+         transform: translateY(0%);
+       transition-delay: 0s, 0s, 0.3s;
+     }
+     .list-item-1 .sub-menu li:hover{
+         border-bottom: none;
+        
+     }
+     .sub-menu{
+         display: none;
+     }
+
+    /*-----------header responsive css End--------------------*/
+    /*-----------partners responsive css--------------------*/
+    .slider-2 .slider .item {
+        padding: 39px 0px;
+    }
+    .slider-4 a{
+        width: 50%;
+    }
+    .slider-10 button.owl-prev::before{
+        width: 350px;
+        left: 30px;
+    }
+    .slider-10 button.owl-next::before{
+        width: 350px;
+        left: 30px;
+    }
+    /*================Button responsive css=================*/
+    .btn-1{
+        width: 200px;
+    }
+    .buttons-2-1 button, .buttons-2-2 button,.buttons-2-3 button{
+        display:block;
+        margin-top: 30px;
+    }
+    .buttons-3-1 button, .buttons-3-2 button,.buttons-3-3 button{
+        display:block;
+        margin-top: 30px;
+    }
+    .buttons-4-1 button, .buttons-4-2 button,.buttons-4-3 button{
+        display:block;
+        margin-top: 30px;
+    }
+    .buttons-5-1 button, .buttons-5-2 button,.buttons-5-3 button{
+        display:block;
+        margin-top: 30px;
+    }
+    .buttons-6-1 button, .buttons-6-2 button,.buttons-6-3 button{
+        display:block;
+        margin-top: 30px;
+    }
+    .buttons-7-1 button, .buttons-7-2 button,.buttons-7-3 button{
+        display:block;
+        margin-top: 30px;
+    }
+    .buttons-8-1 button, .buttons-8-2 button,.buttons-8-3 button{
+        display:block;
+        margin-top: 30px;
+    }
+    .buttons-9-1 button, .buttons-9-2 button,.buttons-9-3 button{
+        display:block;
+        margin-top: 30px;
+    }
+    .buttons-10-1 button, .buttons-10-2 button,.buttons-10-3 button{
+        display:block;
+        margin-top: 30px;
+    }
+    .buttons-11-1 button, .buttons-11-2 button,.buttons-11-3 button{
+        display:block;
+        margin-top: 30px;
+    }
+    .buttons-12-1 button, .buttons-12-2 button,.buttons-12-3 button{
+        display:block;
+        margin-top: 30px;
+    }
+    .buttons-13-1 button, .buttons-13-2 button,.buttons-13-3 button{
+        display:block;
+        margin-top: 30px;
+    }
+    .buttons-14-1 button, .buttons-14-2 button,.buttons-14-3 button{
+        display:block;
+        margin-top: 30px;
+    }
+    .buttons-15-1 button, .buttons-15-2 button,.buttons-15-3 button{
+        display:block;
+        margin-top: 30px;
+    }
+    .buttons-16-1 button, .buttons-16-2 button,.buttons-16-3 button{
+        display:block;
+        margin-top: 30px;
+    }
+    .buttons-17-1 button, .buttons-17-2 button,.buttons-17-3 button{
+        display:block;
+        margin-top: 30px;
+    }
+    .buttons-18-1 button, .buttons-18-2 button,.buttons-18-3 button{
+        display:block;
+        margin-top: 30px;
+    }
+    .buttons-19-1 button, .buttons-19-2 button,.buttons-19-3 button{
+        display:block;
+        margin-top: 30px;
+    }
+    /*==-----------Pricing table responsive css----------=======*/
+    .p-box-6-1 h3{
+        width: 140px;
+    }
+    .p-box-8{
+      
+        margin-top: 30px;
+    }
+    .p-box-9{
+        
+        margin-top: 30px;
+    }
+    .p-box-10{
+       
+        margin-top: 30px;
+    }
+    .p-box-11{
+      
+        margin-top: 30px;
+    }
+    .p-box-12{
+        
+        margin-top: 30px;
+    }
+    .p-box-13{
+     
+        margin-top: 30px;
+    }
+    .p-box-14{
+       
+        margin-top: 30px;
+    }
+    .p-box-15{
+       
+        margin-top: 30px;
+    }
+    .p-box-16{
+       
+        margin-top: 30px;
+    }
+    .p-box-17{
+       
+        margin-top: 30px;
+    }
+    /*=======Progress-skills responsive css======*/
+    .progress{
+        margin-top: 30px;
+    }
+    .ps-image-3-1 img {
+       padding: 25px;
+       margin-top: 30px;
+    }
+    .ps-content-6{
+        margin-top: 40px;
+    }
+  /* -------Alert -Box responsive css------- */
+  .al-section-5 span i{
+      font-size: 30px;
+  }
+  .al-section-5 span.cancle-icon{
+      top: 20px;
+      right: 20px;
+  }
+  .al-section-7 .text-7 h2{
+      font-size: 28px;
+      width: 82%;
+
+  }
+ 
+  .al-section-8 .content-8 h2{
+      font-size: 25px;
+  }
+  /* HEADER RESPONSIVE CSS */
+  .resp-bar{
+        display: block;
+    }
+}
+@media screen and (max-width:767px){
+    .left_shift{
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    .box h2,.right-2 h2,.box-3 h2{
+        font-size: 20px;
+    }
+    .box-3 h2{
+        font-size: 20px;
+        
+    }
+    .icon-3{
+        padding: 17px;
+        border-bottom-left-radius: 70px;
+        border-bottom-right-radius: 70px;
+    }
+
+    .box-2 .right-2{
+        padding-left: 10%;
+    }
+
+ /*-----------carousal responsive css--------------------*/
+    .slider-3 .owl-nav{
+        top: -58px;
+    }
+    .slider-heading-4 h2{
+        text-align: center;
+    }
+    .slider-3 .owl-nav {
+        top: 125px;
+    }
+    .slider-11 .img-11-a, .slider-11 .img-11-b{
+        text-align: center;
+        padding: 20px 0px;
+    }
+     /*==-----------Pricing table responsive css----------=======*/
+     .p-box-6-1 h3{
+        width: 200px;
+        margin: 20px auto;
+    }
+    .p-box-1,.p-box-2, .p-box-3, .p-box-4,.p-box-5, .p-box-6 , .p-box-7{
+        margin-top: 40px;
+    }
+    .slider-11 a{
+        padding: 40px 0px;
+    }
+    /*==----------Alert-Box responsive css----------=======*/
+    .al-section-4 .alert-text{
+        font-size: 13px;
+    }
+    .al-section-4 .alert-icon i {
+        font-size: 25px;
+    }
+    .al-section-5 .alert-content p{
+        margin-left: 115px;
+    }
+    .btn-text .style-button-2-d{
+        margin: 20px;
+    }
+    .al-section-7 .btn-text button{
+        margin: 15px auto;
+        display: block;
+    }
+    .al-section-8 .alert-icon-8{
+        width: 100%;
+    }
+    .al-section-8 .alert-icon-8 i{
+        display: block;
+        margin: 0 auto;
+    }
+    .al-section-8 .btn-text button{
+        display: block;
+        margin: 20px auto;
+    }
+    .al-section-8 .content-8 h2 {
+        font-size: 18px;
+        text-align: center;
+    }
+}
+@media screen and (max-width:752px){
+    .box h2,.right-2 h2,.box-3 h2{
+        font-size: 20px;
+
+    }
+    .box p{
+        width: 408px;
+    }
+    .icon-12{
+        height: 203px;
+        line-height: 178px;
+    }
+    .box-12{
+        margin-top: 20px;
+    }
+    /*-----------partners responsive css--------------------*/
+    .slider-1 .item{
+        text-align: center;
+    }
+    .slider-1 .item img{
+        display: inline-block;
+
+    }
+    .slider-heading-2 h2{
+        text-align: center;
+    }
+    .logo-slider .col-md-6{
+        text-align: center;
+    }
+    .al-section-5 span i {
+        font-size: 25px;
+    }
+}
+@media screen and (max-width:576px){
+    header .logo{
+        z-index: 9;
+        /* background-color: transparent; */
+    }
+    header .logo img{
+        width: 85px;
+    }
+    .mobile-menu{
+        z-index: -1;
+    }
+    .mobile-menu .main-menu{
+        margin-top: 100px;
+    }
+}
+
+
+@media screen and (max-width:527px){
+    .slider-3 .owl-nav {
+        top: 300px;
+    }
+    .slider-11 a img{
+        display: block;
+    }
+    /* ------Alert-Box responsive css------ */
+    .al-section-4 .alert-text{
+        font-size: 11px;
+    }
+    .al-section-4 .alert-icon i {
+        font-size: 20px;
+    }
+    .al-section-7 .btn-text .style-button-2-d {
+        width: 200px;
+        height: 50px;
+        font-size: 13px;
+        font-weight: 700;
+    }
+    .al-section-7 .text-7 h2 {
+        font-size: 20px;
+        width: 100%;
+        text-align: center;
+    }
+    .al-section-7 .text-7 img{
+        display: block;
+        margin: 0 auto;
+        float: none;
+    }
+}
+ 
+@media screen and (max-width:447px){
+    .al-section-4 .alert-icon{
+        padding:15px ;
+    }
+    .al-section-4 .alert-text{
+        padding-left: 7px;
+    }
+}
+@media screen and (max-width:430px){
+    .box h2,.right-2 h2,.box-3 h2{
+        font-size: 20px;
+
+    }
+    .box p{
+        width: 310px;
+    }
+    .slider-3 .slider-heading-3 h2,.slider-3 .slider-heading-3 p{
+        text-align: center;
+    }
+    .slider-4 a{
+        width:100%;
+        margin-top: 20px;
+    }
+    .slider-4 a{
+        text-align: center;
+    }
+    .slider-4 a img{
+        display: inline-block;
+    }
+  /* ----Alert_box responsive css----- */
+  .al-section-4 .alert-icon{
+      padding:15px ;
+  }
+  .al-section-4 .alert-text{
+      padding-left: 7px;
+  }
+  .al-section-5 .alert-content h4{
+      margin-left: 115px;
+  }
+}
+
+
+/*-----resoponsive css of feature with icon end-------*/
+/*------------responsive css of headers style-----------------*/
+
+
+
